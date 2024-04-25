@@ -81,6 +81,7 @@ To install the specified requirements in a Mamba environment, follow these steps
    cd UNSEG
    ```
 5. **Run the notebook or the script**
+   Open UNSEG folder in vscode. To execute notebook, open it and choose unseg env kernel.
 
 ---------
 
