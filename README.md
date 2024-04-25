@@ -52,6 +52,38 @@ UNSEG outputs
 *n_cells : int.
         Number of segmented cells.
 
+
+## Installation
+
+To install the specified requirements in a Mamba environment, follow these steps:
+
+1. **Create a new Mamba environment**:
+   ```bash
+   mamba create -n unseg python=3.9
+   ```
+   This will create a new environment named "my_env" with Python 3.8[^1][^3].
+
+2. **Activate the environment**:
+   ```bash
+   mamba activate unseg
+   ```
+   Your command prompt should now show the active environment[^2].
+
+3. **Install the required packages**:
+   ```bash
+   pip install opencv-python==4.7.0.72 numpy==1.24.3 matplotlib==3.7.1 scikit-image==0.20.0 scikit-learn==1.2.2 scipy==1.9.1
+   ```
+   This will install the specified versions of each package into your active environment[^1][^3][^5].
+
+4. **Clone the repo**:
+   ```bash
+   git clone https://github.com/uttamLab/UNSEG.git
+   cd UNSEG
+   ```
+5. **Run the notebook or the script**
+
+---------
+
 If you find UNSEG useful in your research, please consider citing:
 ```
 @article {Kochetov2023.11.13.566842,
@@ -67,3 +99,4 @@ Schoedel and Rhonda M Brand and Randall E Brand and Jian Yu and Lin Zhang and Br
 }
 ```
 ![Segmentation Example](content/qr_img.png)
+
